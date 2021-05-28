@@ -15,6 +15,7 @@ class Djangoh(MakefilePackage):
     git      = "http://gitlab.com/eic/mceg/DJANGOH-4.6.10.git"
 
     version('master', branch='master')
+    version('4.6.10', sha256='e8b7aa810f7c3c53c30eb5dbfe95d7b013178c03')
 
     depends_on('lhapdf5')
     depends_on('cernlib')
